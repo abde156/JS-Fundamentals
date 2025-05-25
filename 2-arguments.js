@@ -1,4 +1,4 @@
-let NA = 'No Argument';
+let NA = 'No argument';
 let AF = 'Argument found';
 let ASF = 'Arguments found';
 const args = process.argv.slice(2);
