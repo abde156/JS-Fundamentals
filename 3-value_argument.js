@@ -1,9 +1,8 @@
-let NA = 'No arguments';
-const x = process.xv[2];
+let NA = 'No argument';
+const arg = process.argv[2];
 
-if (x === undefined) {
+if (arg === undefined) {
   console.log(NA);
-}
-else {
+} else {
   console.log(arg);
 }
